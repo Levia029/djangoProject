@@ -3,6 +3,7 @@ from login import models
 # Create your views here.
 #user_list = []
 
+#定义一个主页请求
 def index(request):
     if request.method == "POST":
         username = request.POST.get('username')
